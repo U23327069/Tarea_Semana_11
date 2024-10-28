@@ -4,7 +4,7 @@ public class Tarea04_Semana11 {
         Scanner lectura=new Scanner (System.in);
         int[][] ventas = new int[3][3];
         int totalVentas = 0;
-        // Generar ventas aleatorias entre 1000 y 10000 y llenar la matriz
+        //Aplicamos ventas aleatorias entre 1000 y 10000 y llenar la matriz
         System.out.println("Ventas registradas en la matriz 3x3:");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
